@@ -1,0 +1,25 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-color: #304276;
+}
+
+.nav .nav-link.active{
+    background-color: #D8D8D8;
+    color: #242424;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #242424;
+}
+
+.navbar-brand{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
