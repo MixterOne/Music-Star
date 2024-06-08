@@ -6,14 +6,15 @@ body{
     background-color: #304276;
 }
 
-.nav .nav-link.active{
+#headerNav .nav .nav-link.active{
     background-color: #D8D8D8;
     color: #242424;
 }
 
-.nav .nav-link,
+#headerNav .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover,
+.nav-music .nav-link.active:hover{
     color: #242424;
 }
 
@@ -42,5 +43,14 @@ body{
 }
 
 .text-colered{
+    color: #304276;
+}
+
+.nav-music .nav-link.active{
+    background-color: #304276;
+    color: #fff;
+}
+
+.nav-music .nav-link:hover{
     color: #304276;
 }
